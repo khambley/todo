@@ -1,4 +1,4 @@
-export class ToDoItem {
+export class TodoItem {
   constructor(taskVal: string, completeVal: boolean = false){
     this.task = taskVal;
     this.complete = completeVal;
